@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient("service-user")
 public interface UserFeignClient {
 
-    //根据userId查询提货点和团长信息
+    //根据userId 查询提货点和团长信息
     @GetMapping("/api/user/leader/inner/getUserAddressByUserId/{userId}")
     public LeaderAddressVo getUserAddressByUserId(@PathVariable("userId") Long userId);
 }
