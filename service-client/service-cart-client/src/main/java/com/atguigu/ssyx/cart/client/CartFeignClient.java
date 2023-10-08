@@ -12,7 +12,7 @@ public interface CartFeignClient {
 
     //获取当前用户购物车选中购物项
     /**
-     * 根据用户Id 查询购物车列表
+     * 根据用户Id  查询购物车列表
      *
      * @param userId
      * @return
